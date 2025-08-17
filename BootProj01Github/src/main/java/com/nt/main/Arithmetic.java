@@ -2,9 +2,14 @@ package com.nt.main;
 
 public class Arithmetic {
 
+	public void sum()
+	{
 	double num1=25;
 	double num2= 35;
-	System.out.println("sum is ::"+ num1+num2);
+   double sum=num1+num2;
+   
+   System.out.println(sum);
+	}
 	
 
 }
